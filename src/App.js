@@ -1,11 +1,25 @@
+import Login from "./login"
+
 function App() {
-  return (
-    <div>
-      <h1>Try adding some html in here:</h1>
-      <p>Why is edge so terrible?</p>
-      <p>seems good to me</p>
-      <p>possibly just hadn't saved it?</p>
-    </div>
-  )
-}
+  
+
+    const address= {
+      forename:"Shakeel",
+      surname: "uddin",
+      city: "london",
+    }
+  
+    return (
+      <div>
+        <h1>{address.forename}</h1>
+        <h1>{address.surname}</h1>
+        <h1>{address.city}</h1>
+        <br/>
+        <Login/>
+      </div>
+    );
+    }
 export default App;
+
+
+
