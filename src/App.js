@@ -1,5 +1,5 @@
 import Login from "./login"
-
+import LoginControl from "./LoginControl"
 function App() {
   
 
@@ -16,6 +16,7 @@ function App() {
         <h1>{address.city}</h1>
         <br/>
         <Login/>
+        <LoginControl/>
       </div>
     );
     }
